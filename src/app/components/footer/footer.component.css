@@ -1,0 +1,21 @@
+.parent{
+  background-color: #333333;
+}
+.childOne{
+  border-bottom: 1px solid ;
+}
+.title
+{
+  font-weight: bold;
+
+}
+.p{
+  font-size: 16px;
+}
+.lastOne{
+  width: 600px;
+}
+.i{
+  background-color: #e8970c;
+}
+
