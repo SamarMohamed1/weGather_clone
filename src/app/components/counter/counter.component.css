@@ -1,0 +1,11 @@
+.image{
+  float: left;
+  padding-right: 5px;
+}
+.content{
+  float: left;
+  padding-left: 10px;
+}
+.content p{
+  color: #999999;
+}

@@ -1,9 +1,39 @@
-
+*{
+  font-family: "Nunito", sans-serif;
+}
 .dash
 {
   background-color: #fd9f5c;
+  font-family: sans-serif;
+
 }
-.title{
+.title a{
   color: #FE6B02;
   font-weight:bold;
+}
+
+.right .title  {
+  font-size: 38px;
+}
+.right .title span{
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+.right .content{
+  width: 510px;
+}
+.left button{
+  color: #fd9f5c;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+  float: right;
+}
+.right{
+  float: left;
+}
+.left{
+  float: left;
+  padding: 50px 0;
 }
