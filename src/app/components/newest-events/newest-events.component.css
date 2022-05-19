@@ -1,0 +1,74 @@
+.title{
+  font-size: 38px;
+  margin:70px 0px 50px 0px;
+}
+.simiTitle{
+  height: 50px;
+}
+.content{
+  border-radius: 10px;
+}
+.content:hover{
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll  {
+  height: 100px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
+.card-img-overlay{
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  background: rgba(15, 15, 15, 0.2);
+  z-index: 2;
+  position: absolute;
+}
+
+.numberOfLikes{
+  color: white;
+  float: left;
+}
+.place{
+  color: white;
+  float: left;
+
+}
+
+.location{
+  padding: 5px;
+  float: left;
+}
+.like{
+  border-bottom: 1px solid #b8b5b5;
+  padding: 5px;
+  float: left;
+}
+.details .btn1{
+  width: 100%;
+  color: #fd9f5c;
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 7px;
+  border: 2px solid  #f3efef;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.details .btn1:hover{
+  color: white;
+  background-color: #fd9f5c;
+  border: 2px solid  #fd9f5c;
+
+}
+.details{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.card{
+  height: 500px;
+  margin: 25px;
+}

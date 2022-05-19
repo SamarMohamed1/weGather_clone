@@ -16,6 +16,7 @@ import { SearchComponent } from './components/search/search.component';
 import { AllEventsComponent } from './components/all-events/all-events.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { MaxLengthPipe } from './pipes/max-length.pipe';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     SearchComponent,
     AllEventsComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MaxLengthPipe
   ],
   imports: [
     BrowserModule,
