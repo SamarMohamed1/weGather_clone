@@ -1,1 +1,20 @@
-
+li:hover{
+  border-bottom: 1px solid #fa8634;;
+}
+.language:hover{
+  background-color: #343a40;
+  color: white;
+}
+.register{
+  background-color: #272C48;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+.register:checked{
+  border: 1px solid #a7adb3;
+}
+.rightNav{
+  float: right;
+  margin-left: 600px;
+}
